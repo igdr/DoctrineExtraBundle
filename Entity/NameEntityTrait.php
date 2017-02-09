@@ -1,0 +1,38 @@
+<?php
+
+namespace Igdr\DoctrineExtraBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Extend entity to create name field.
+ */
+trait NameEntityTrait
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(type="string")
+     */
+    private $name;
+
+    /**
+     * @return string
+     */
+    public function getName(): string
+    {
+        return (string) $this->name;
+    }
+
+    /**
+     * @param string $name
+     *
+     * @return $this
+     */
+    public function setName(string $name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "igdr/doctrine-extra-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle provides an additional functionality for work with doctrine2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Drozd",
+            "email": "drozd.igor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "doctrine/orm": "~2.5",
+        "doctrine/doctrine-bundle": ">=1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Igdr\\DoctrineExtraBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
