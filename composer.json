@@ -18,11 +18,5 @@
         "psr-4": {
             "Igdr\\DoctrineExtraBundle\\": ""
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "dev"
-        }
-    },
-    "minimum-stability": "dev"
+    }
 }
